@@ -23,6 +23,7 @@ export const projects = [
     technology: ["Next.js", "Tailwind CSS", "AWS_EC2"],
     team: ["You"],
     duration: "5 working days",
+    isVisible: true
   },
   {
     // 2. TriVPhoenix
@@ -47,6 +48,7 @@ export const projects = [
     tags: ["Web", "UI/UX"],
     team: ["You"],
     duration: "3 周",
+    isVisible: false
 
   },
   {
@@ -72,6 +74,7 @@ export const projects = [
     tags: ["Web", "UI/UX"],
     team: ["You"],
     duration: "3 周",
+    isVisible: false
 
   },
   {
@@ -98,6 +101,7 @@ export const projects = [
     team: ["You"],
 
     duration: "3 周",
+    isVisible: false
 
   },
   {
@@ -113,7 +117,7 @@ export const projects = [
       "/images/project_covers/TriOrigin.jpg",
       "/images/project_covers/TriOrigin.jpg"
     ],
-    markdownPath: "/Template.md",
+    markdownPath: "/TriPriest.md",
     technology: ["Next.js", "Tailwind CSS", "Framer Motion"],
     repo: "https://github.com/HETANG404/Priest",
     liveDemo: "https://yourname.vercel.app",
@@ -122,8 +126,8 @@ export const projects = [
     status: "done",
     tags: ["Web", "UI/UX"],
     team: ["You"],
-
     duration: "3 周",
+    isVisible: true
 
   },
   {
@@ -150,6 +154,7 @@ export const projects = [
     team: ["You"],
 
     duration: "3 周",
+    isVisible: false
 
   },
   {
@@ -158,24 +163,21 @@ export const projects = [
     type: "WE",
     title: "XMI_Schema",
     subtitle: "Data to XMI",
-    description: "TriOrigin description description description description description",
+    description: "",
     cover: "/images/project_covers/Default_logo.png",
-    images: [
-      "/images/project_covers/TriOrigin.jpg",
-      "/images/project_covers/TriOrigin.jpg",
-      "/images/project_covers/TriOrigin.jpg"
-    ],
-    markdownPath: "/Template.md",
-    technology: ["Next.js", "Tailwind CSS", "Framer Motion"],
+    images: [],
+    markdownPath: "/XMI_Schema.md",
+    technology: ["C#", "Revit"],
     repo: "https://github.com/yourname/TriOrigin",
     liveDemo: "https://yourname.vercel.app",
-    startdate: "2024-11",
+    startdate: "2025-03",
     servicesAvailable: "false",
     status: "done",
-    tags: ["Web", "UI/UX"],
-    team: ["You"],
+    tags: ["C#"],
+    team: ["KK"],
 
     duration: "3 周",
+    isVisible: true
 
   },
   {
@@ -202,6 +204,7 @@ export const projects = [
     team: ["You"],
 
     duration: "3 周",
+    isVisible: true
 
   },
   {
@@ -228,6 +231,7 @@ export const projects = [
     team: ["You"],
 
     duration: "3 周",
+    isVisible: true
 
   },
   {
@@ -254,6 +258,7 @@ export const projects = [
     team: ["You"],
 
     duration: "3 周",
+    isVisible: true
 
   },
   {
@@ -280,6 +285,7 @@ export const projects = [
     team: ["You"],
 
     duration: "3 周",
+    isVisible: false
 
   },
   {
@@ -306,6 +312,7 @@ export const projects = [
     team: ["You"],
 
     duration: "3 周",
+    isVisible: false
 
   },
   {
@@ -332,6 +339,7 @@ export const projects = [
     team: ["You"],
 
     duration: "3 周",
+    isVisible: true
 
   },
   {
@@ -358,6 +366,7 @@ export const projects = [
     team: ["You"],
 
     duration: "3 周",
+    isVisible: true
 
   },
   {
@@ -384,6 +393,7 @@ export const projects = [
     team: ["You"],
 
     duration: "3 周",
+    isVisible: true
 
   },
   {
@@ -410,6 +420,7 @@ export const projects = [
     team: ["You"],
 
     duration: "3 周",
+    isVisible: true
 
   },
   {
@@ -436,6 +447,7 @@ export const projects = [
     team: ["You"],
 
     duration: "3 周",
+    isVisible: true
 
   },
   {
@@ -462,6 +474,7 @@ export const projects = [
     team: ["You"],
 
     duration: "3 周",
+    isVisible: true
 
   },
   {
@@ -488,6 +501,7 @@ export const projects = [
     team: ["You"],
 
     duration: "3 周",
+    isVisible: true
 
   },
   {
@@ -514,6 +528,7 @@ export const projects = [
     team: ["You"],
 
     duration: "3 周",
+    isVisible: true
 
   },
   {
@@ -540,6 +555,31 @@ export const projects = [
     team: ["You"],
 
     duration: "3 周",
-
+    isVisible: false
+  },
+  {
+    // 22. TriActNow
+    slug: "TriActNow",
+    type: "Tri",
+    title: "TriActNow",
+    subtitle: "Sticky Board",
+    description: "A portfolio gallery for presenting projects and resumes.",
+    cover: "/images/project_covers/Actnow_logo.png",
+    images: [
+      "/images/TriOrigin/TriOrigin-001.png",
+      "/images/TriOrigin/TriOrigin-002.jpg",
+      "/images/TriOrigin/TriOrigin-003.jpg"
+    ],
+    markdownPath: "/TriActNow.md",
+    repo: "https://github.com/HETANG404/Origin",
+    liveDemo: "https://www.t-actnow.com/",
+    startdate: "2025-4-12",
+    servicesAvailable: "true",
+    status: "updating",
+    tags: ["Web", "UI/Service"],
+    technology: ["Next.js", "Tailwind CSS", "AWS_EC2"],
+    team: ["You"],
+    duration: "5 working days",
+    isVisible: true
   },
 ]

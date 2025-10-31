@@ -29,7 +29,7 @@ export default function VerticalCategories() {
     <section className="relative mt-6 mb-6 pb-8 pt-10 md:pt-36 ">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 flex flex-wrap md:mb-8 justify-start sm:justify-center">
         <h2 className="text-4xl md:text-5xl text-left sm:text-center font-bold">
-          Life is a journey
+          Deployed projects
         </h2>
       </div>
 

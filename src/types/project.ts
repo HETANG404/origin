@@ -15,5 +15,6 @@ export type Project = {
     tags: string[];
     team: string[];
     duration: string;
+    isVisible: boolean;
   };
   

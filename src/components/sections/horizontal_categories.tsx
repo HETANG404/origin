@@ -22,6 +22,7 @@ type Project = {
   tags: string[];
   team: string[];
   duration: string;
+  isVisible: boolean;
 };
 
 const groupedProjects = [
@@ -37,7 +38,10 @@ export default function HorizontalCategories() {
   return (
     <section className="relative mt-6 mb-6 pb-6 md:pt-36">
       {groupedProjects.map((group) => {
-        const filtered = projects.filter((p) => p.type === group.type);
+        const filtered = projects.filter((p) => p.type === group.type && p.isVisible);
+        
+        if (filtered.length === 0) return null;
+        
         return (
           <ProjectGroupSection
             key={group.type}
