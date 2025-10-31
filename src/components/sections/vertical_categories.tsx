@@ -7,7 +7,7 @@ import VerticalCard from "../base_ui/vertical_card";
 export default function VerticalCategories() {
 
   // 筛选不同类型的项目
-  const servicesAvailable = projects.filter((p) => p.type === "Tri");
+  const servicesAvailable = projects.filter((p) => p.isDeployed && p.type == "Tri");
 
   const containerRef = useRef<HTMLDivElement>(null);
 

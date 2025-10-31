@@ -23,7 +23,8 @@ export const projects = [
     technology: ["Next.js", "Tailwind CSS", "AWS_EC2"],
     team: ["You"],
     duration: "5 working days",
-    isVisible: true
+    isVisible: true,
+    isDeployed: true
   },
   {
     // 2. TriVPhoenix
@@ -48,7 +49,8 @@ export const projects = [
     tags: ["Web", "UI/UX"],
     team: ["You"],
     duration: "3 周",
-    isVisible: false
+    isVisible: false,
+    isDeployed: false
 
   },
   {
@@ -74,7 +76,8 @@ export const projects = [
     tags: ["Web", "UI/UX"],
     team: ["You"],
     duration: "3 周",
-    isVisible: false
+    isVisible: false,
+    isDeployed: false
 
   },
   {
@@ -101,7 +104,8 @@ export const projects = [
     team: ["You"],
 
     duration: "3 周",
-    isVisible: false
+    isVisible: false,
+    isDeployed: false
 
   },
   {
@@ -127,7 +131,8 @@ export const projects = [
     tags: ["Web", "UI/UX"],
     team: ["You"],
     duration: "3 周",
-    isVisible: true
+    isVisible: true,
+    isDeployed: false
 
   },
   {
@@ -154,7 +159,8 @@ export const projects = [
     team: ["You"],
 
     duration: "3 周",
-    isVisible: false
+    isVisible: false,
+    isDeployed: false
 
   },
   {
@@ -177,7 +183,8 @@ export const projects = [
     team: ["KK"],
 
     duration: "3 周",
-    isVisible: true
+    isVisible: true,
+    isDeployed: false
 
   },
   {
@@ -204,7 +211,8 @@ export const projects = [
     team: ["You"],
 
     duration: "3 周",
-    isVisible: true
+    isVisible: true,
+    isDeployed: false
 
   },
   {
@@ -231,7 +239,8 @@ export const projects = [
     team: ["You"],
 
     duration: "3 周",
-    isVisible: true
+    isVisible: true,
+    isDeployed: false
 
   },
   {
@@ -258,7 +267,8 @@ export const projects = [
     team: ["You"],
 
     duration: "3 周",
-    isVisible: true
+    isVisible: true,
+    isDeployed: false
 
   },
   {
@@ -285,7 +295,8 @@ export const projects = [
     team: ["You"],
 
     duration: "3 周",
-    isVisible: false
+    isVisible: false,
+    isDeployed: false
 
   },
   {
@@ -312,7 +323,8 @@ export const projects = [
     team: ["You"],
 
     duration: "3 周",
-    isVisible: false
+    isVisible: false,
+    isDeployed: false
 
   },
   {
@@ -339,7 +351,8 @@ export const projects = [
     team: ["You"],
 
     duration: "3 周",
-    isVisible: true
+    isVisible: true,
+    isDeployed: false
 
   },
   {
@@ -366,7 +379,8 @@ export const projects = [
     team: ["You"],
 
     duration: "3 周",
-    isVisible: true
+    isVisible: true,
+    isDeployed: false
 
   },
   {
@@ -393,7 +407,8 @@ export const projects = [
     team: ["You"],
 
     duration: "3 周",
-    isVisible: true
+    isVisible: true,
+    isDeployed: false
 
   },
   {
@@ -420,7 +435,8 @@ export const projects = [
     team: ["You"],
 
     duration: "3 周",
-    isVisible: true
+    isVisible: true,
+    isDeployed: false
 
   },
   {
@@ -447,7 +463,8 @@ export const projects = [
     team: ["You"],
 
     duration: "3 周",
-    isVisible: true
+    isVisible: true,
+    isDeployed: false
 
   },
   {
@@ -474,7 +491,8 @@ export const projects = [
     team: ["You"],
 
     duration: "3 周",
-    isVisible: true
+    isVisible: true,
+    isDeployed: false
 
   },
   {
@@ -501,7 +519,8 @@ export const projects = [
     team: ["You"],
 
     duration: "3 周",
-    isVisible: true
+    isVisible: true,
+    isDeployed: false
 
   },
   {
@@ -528,7 +547,8 @@ export const projects = [
     team: ["You"],
 
     duration: "3 周",
-    isVisible: true
+    isVisible: true,
+    isDeployed: false
 
   },
   {
@@ -555,7 +575,8 @@ export const projects = [
     team: ["You"],
 
     duration: "3 周",
-    isVisible: false
+    isVisible: false,
+    isDeployed: false
   },
   {
     // 22. TriActNow
@@ -580,6 +601,7 @@ export const projects = [
     technology: ["Next.js", "Tailwind CSS", "AWS_EC2"],
     team: ["You"],
     duration: "5 working days",
-    isVisible: true
+    isVisible: true,
+    isDeployed: true
   },
 ]

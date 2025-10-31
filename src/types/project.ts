@@ -16,5 +16,6 @@ export type Project = {
     team: string[];
     duration: string;
     isVisible: boolean;
+    isDeployed: boolean;
   };
   
