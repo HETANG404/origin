@@ -1,7 +1,5 @@
-export const dynamic = "force-dynamic"; // 可选，确保每次都执行 redirect
-
-import { redirect } from "next/navigation";
+import Home from "./(default)/home/page";
 
 export default function RootPage() {
-  redirect("/home");
+  return <Home />;
 }

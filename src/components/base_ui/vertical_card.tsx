@@ -1,5 +1,3 @@
-// components/base_ui/VerticalCard.tsx
-
 import React from "react";
 import Link from "next/link";
 import clsx from "clsx";
@@ -14,7 +12,6 @@ type VerticalCardProps = {
 
 export default function VerticalCard({
   title,
-  subtitle,
   backgroundImage,
   href,
   className = "",
@@ -25,22 +22,26 @@ export default function VerticalCard({
         "w-[260px] h-[325px] relative rounded-[20px] bg-[#a49e9e] bg-cover bg-center overflow-hidden cursor-pointer transition duration-200 hover:scale-[1.02]",
         className
       )}
-      style={{
-        backgroundImage: backgroundImage ? `url(${backgroundImage})` : undefined,
-      }}
     >
-      <div className="w-[200px] left-[10px] top-[18px] absolute inline-flex flex-col justify-start items-center gap-1.5">
-        <div className="self-stretch justify-start text-white text-2xl font-medium font-['Inter']">
+      {backgroundImage && (
+        <div
+          className="absolute inset-0 bg-cover bg-center opacity-70"
+          style={{
+            backgroundImage: `url(${backgroundImage})`,
+          }}
+        />
+      )}
+      <div className="absolute left-3 right-3 top-3 z-10 inline-flex flex-col justify-start items-center gap-2">
+        <div
+          className="w-full px-3 py-1 bg-white/70 rounded text-2xl font-bold font-cardtext text-center"
+          style={{ color: "#000", textShadow: "1px 1px 2px rgba(0,0,0,0.2)" }}
+        >
           {title}
-        </div>
-        <div className="self-stretch h-5 justify-start text-white text-[20px] font-normal font-['Inter']">
-          {subtitle}
         </div>
       </div>
     </div>
   );
 
-  // 支持内部路由和外部链接两种形式
   if (href) {
     const isExternal = href.startsWith("http");
     return isExternal ? (

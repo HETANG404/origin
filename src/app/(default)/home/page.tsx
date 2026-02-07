@@ -14,7 +14,7 @@ export default function Home() {
       <Hero />
       <VerticalCategories />
       <HorizontalCategories />
-      <MagneticBoard />
+      <MagneticBoard className="hidden sm:block" />
     </>
   );
 }

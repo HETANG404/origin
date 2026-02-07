@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=Inter&family=Work+Sans&family=Outfit&family=IBM+Plex+Sans&family=Plus+Jakarta+Sans&family=Space+Grotesk&family=Fira+Code&display=swap');
 
 @import "tailwindcss";
 
@@ -47,6 +47,6 @@ html, body {
   scrollbar-width: none;
 }
 
-/* .font-cardtext {
-  font-family: var(--font-Silkscreen);
-} */
+.avatar-rounded {
+  border-radius: 9999px !important;
+}

@@ -21,10 +21,18 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 20.17.0
-          cache: 'npm'
+
+      - name: Debug npm config
+        run: |
+          node -v
+          npm -v
+          npm config get ignore-scripts
+          npm config get optional
+          env | grep -i npm || true
 
       - name: Install Dependencies
-        run: npm install --frozen-lockfile
+        run: npm ci --include=optional
+
 
       - name: Build Next.js App
         run: npm run build

@@ -56,13 +56,13 @@
 
 ## 📸 项目截图
 
-![首页界面](/images/Default_logo.png)  
+![首页界面](/images/Default.png)  
 *TriOrigin 首页 UI 设计*
 
-![编辑页面](/images/Default_logo.png)  
+![编辑页面](/images/Default.png)  
 *项目编辑器*
 
-![移动端适配](/images/Default_logo.png)  
+![移动端适配](/images/Default.png)  
 *响应式体验*
 
 ---

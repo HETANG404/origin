@@ -1,0 +1,46 @@
+@reference "./globals.css";
+
+.markdownProse {
+  @apply leading-relaxed; /* 整体默认行间距 */
+}
+
+.markdownProse h1 {
+  @apply text-4xl font-extrabold mb-6;
+  font-family: 'Outfit';
+  color: var(--foreground);
+}
+
+.markdownProse h2 {
+  @apply text-3xl font-bold mt-10 mb-8;
+  font-family: 'Outfit';
+}
+
+.markdownProse h3 {
+  @apply text-2xl font-semibold mt-6 mb-2;
+}
+
+.markdownProse p,
+.markdownProse li {
+  @apply text-xl leading-relaxed;
+  font-family: Calibri;
+}
+
+.markdownProse ul {
+  @apply list-disc ml-6 space-y-1;
+}
+
+.markdownProse ul > li {
+  @apply mb-2;
+}
+
+.markdownProse a {
+  @apply text-blue-600 underline;
+}
+
+.markdownProse img {
+  @apply rounded-lg mx-auto shadow-lg mt-6;
+}
+
+.markdownProse hr {
+  @apply my-8 border-t border-gray-300;
+}

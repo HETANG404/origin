@@ -22,12 +22,6 @@ export default function DefaultLayout({
   });
 
   return (
-    <>
-
-
       <main className="flex-1">{children}</main>
-
-
-    </>
   );
 }

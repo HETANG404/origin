@@ -3,7 +3,6 @@
 import React from "react";
 import Link from "next/link";
 import clsx from "clsx";
-import "@/styles/globals.css";
 
 type HorizontalCardProps = {
   title: string;
@@ -48,9 +47,7 @@ export default function HorizontalCard({
         >
           {subtitle}
         </div>
-
       </div>
-
     </div>
   );
 
