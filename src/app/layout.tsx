@@ -5,7 +5,7 @@ import Header from "@/components/ui/header";
 import Footer from "@/components/ui/footer";
 
  export const metadata: Metadata = {
-  title: 'Pixel + Geist Theme Switcher',
+  title: 'Origin',
   description: 'Dark/Light theme with font change',
 };
 
@@ -24,7 +24,7 @@ export default function RootLayout({
           content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
         />
       </head>
-      <body className="flex mini-h-screen flex-col w-full">
+      <body className="flex min-h-screen flex-col w-full">
               <Header />
       
                 {children}
