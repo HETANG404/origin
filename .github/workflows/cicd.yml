@@ -31,9 +31,8 @@ jobs:
           env | grep -i npm || true
 
       - name: Install Dependencies
-        run: |
-          npm config set optional true
-          npm ci --include=optional
+        run: npm ci --include=optional
+
 
       - name: Build Next.js App
         run: npm run build
