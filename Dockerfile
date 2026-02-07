@@ -8,7 +8,7 @@ WORKDIR /app
 COPY package.json package-lock.json* yarn.lock* ./
 
 # 4. 安装生产依赖
-RUN npm install --frozen-lockfile
+RUN npm ci
 
 # 5. 复制所有项目文件
 COPY . .
