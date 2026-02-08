@@ -3,10 +3,10 @@ name: TriOrigin CI/CD Pipeline
 on:
   push:
     branches:
-      - main  # 监听 main 分支
+      - tang
   pull_request:
     branches:
-      - main
+      - tang
 
 jobs:
   build:
